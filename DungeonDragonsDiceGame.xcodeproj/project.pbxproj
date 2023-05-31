@@ -11,6 +11,7 @@
 		DF2B4A7D2A2541A1009AFE3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2B4A7C2A2541A1009AFE3C /* ContentView.swift */; };
 		DF2B4A7F2A2541A4009AFE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2B4A7E2A2541A4009AFE3C /* Assets.xcassets */; };
 		DF2B4A822A2541A4009AFE3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2B4A812A2541A4009AFE3C /* Preview Assets.xcassets */; };
+		DF701F202A27E88F00DCC279 /* ButtonLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF701F1F2A27E88F00DCC279 /* ButtonLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		DF2B4A7C2A2541A1009AFE3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF2B4A7E2A2541A4009AFE3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF2B4A812A2541A4009AFE3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF701F1E2A27DC8C00DCC279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DF701F1F2A27E88F00DCC279 /* ButtonLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLayoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		DF2B4A792A2541A1009AFE3C /* DungeonDragonsDiceGame */ = {
 			isa = PBXGroup;
 			children = (
+				DF701F1E2A27DC8C00DCC279 /* Info.plist */,
 				DF2B4A7A2A2541A1009AFE3C /* DungeonDragonsDiceGameApp.swift */,
 				DF2B4A7C2A2541A1009AFE3C /* ContentView.swift */,
+				DF701F1F2A27E88F00DCC279 /* ButtonLayoutView.swift */,
 				DF2B4A7E2A2541A4009AFE3C /* Assets.xcassets */,
 				DF2B4A802A2541A4009AFE3C /* Preview Content */,
 			);
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF2B4A7D2A2541A1009AFE3C /* ContentView.swift in Sources */,
+				DF701F202A27E88F00DCC279 /* ButtonLayoutView.swift in Sources */,
 				DF2B4A7B2A2541A1009AFE3C /* DungeonDragonsDiceGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +276,8 @@
 				DEVELOPMENT_TEAM = CSDME8QJX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DungeonDragonsDiceGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +304,8 @@
 				DEVELOPMENT_TEAM = CSDME8QJX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DungeonDragonsDiceGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
